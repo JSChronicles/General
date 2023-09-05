@@ -1,4 +1,4 @@
-# Miscellaneous
+# General
 
 <a name="readme-top"></a>
 
