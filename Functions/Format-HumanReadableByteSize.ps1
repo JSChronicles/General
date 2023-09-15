@@ -37,7 +37,7 @@ function Format-HumanReadableByteSize {
     process {
         foreach ($Input in $InputObject) {
             # Handle this before we get NaN from trying to compute the logarithm of zero
-            if ($InputObject -eq 0) {
+            if ($Input -eq 0) {
                 return "0 Bytes"
             }
 
